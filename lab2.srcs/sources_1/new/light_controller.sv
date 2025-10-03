@@ -20,7 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module light_controller #(parameter N) (
+module light_controller #(parameter N = 300000000) (
     input wire clk,
     input wire rst,
     input wire button,
@@ -31,7 +31,7 @@ module light_controller #(parameter N) (
    reg button_prev;
    reg [31:0] counter;
    
-    assign light_state = light_state_reg;
+   assign light_state = light_state_reg;
     
    always @ (posedge clk) begin
         if (rst) begin 
