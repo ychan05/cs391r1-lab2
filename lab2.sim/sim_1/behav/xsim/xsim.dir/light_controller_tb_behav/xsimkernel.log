@@ -1,0 +1,7 @@
+Running: xsim.dir/light_controller_tb_behav/xsimk -simmode gui -wdb light_controller_tb_behav.wdb -simrunnum 0 -socket 48887
+Design successfully loaded
+Design Loading Memory Usage: 391572 KB (Peak: 391628 KB)
+Design Loading CPU Usage: 1480 ms
+Simulation completed
+Simulation Memory Usage: 473568 KB (Peak: 530840 KB)
+Simulation CPU Usage: 1490 ms
